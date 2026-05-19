@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+@theme {
+  --color-headcolor: #78602b;
+  --color-subcolor: #000000;
+  --color-button: #29210f;
+  --color-lighttext: #dedede;
+
+  --bg-img: url(./assets/landing-grid-img/img1.jpg);
+
+  --font-head: "sephora";
+}
+
+@font-face {
+  font-family: sephora;
+  src: url(./assets/fonts/sephora_hayden/Sephora\ &\ Hayden.ttf);
+}
